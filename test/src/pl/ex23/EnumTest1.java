@@ -13,6 +13,6 @@ public class EnumTest1 {
 	}
 	
 	//ablaas ingles
-	//80 oci oczko
+	//80 oczeta i ocio
 
 }
