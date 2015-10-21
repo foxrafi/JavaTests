@@ -1,4 +1,4 @@
-package pl.ex5;
+package pl.ex5.vehiclesClasses;
 
 public abstract class Vehicle {
 	

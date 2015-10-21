@@ -1,4 +1,4 @@
-package pl.ex2;
+package pl.ex2.staticBlocks;
 
 public class B extends A {
 	static {
