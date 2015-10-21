@@ -1,4 +1,4 @@
-package pl.ex1.overrideToStringMethod;
+package pl.ex30.overriding;
 
 public class TestTimes {
 	 
