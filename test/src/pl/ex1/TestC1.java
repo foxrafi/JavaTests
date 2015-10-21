@@ -1,4 +1,4 @@
-package pl.rs.test;
+package pl.ex1;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;

@@ -1,4 +1,4 @@
-package pl.rs;
+package pl.ex1;
 
 public class TestTimes {
 	 public static void main(String[] args) {
