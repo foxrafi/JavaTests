@@ -1,10 +1,10 @@
-package pl.ex1;
+package pl.ex29.threadPoolsAndFibbonacci;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
 
-public class TestC1 {
+public class FibThreads {
 
 	public static long fib(long i) {
 		if (i < 2) 

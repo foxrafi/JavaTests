@@ -1,4 +1,4 @@
-package pl.ex1;
+package pl.ex1.overrideToStringMethod;
 
 public class Person {
 
@@ -42,11 +42,6 @@ public class Person {
 	@Override
 	public String toString() {
 		return getName() + " " + getLastname() + " " + getAge();
-	}
-	
-	public static void main(String[] args){
-		Person candidate = new Person("John", "Scott", 120);
-		System.out.println(candidate);
 	}
 	
 }
