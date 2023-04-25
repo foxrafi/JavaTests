@@ -1,5 +1,13 @@
 
 
+The main difference between browser-centric and user-centric web performance metrics is the perspective from which they are measured. Browser-centric metrics are focused on how the web application performs from the perspective of the browser, while user-centric metrics are focused on how the web application performs from the perspective of the user.
+
+Browser-centric metrics typically measure things like page load times, resource sizes, and network requests. These metrics provide developers with insights into how the web application performs from a technical standpoint, and can help identify areas where optimizations can be made to improve performance.
+
+On the other hand, user-centric metrics are focused on how the user experiences the web application. They measure things like bounce rates, conversion rates, and engagement time. These metrics provide developers and website owners with insights into how users are interacting with the website, and can help identify areas where the user experience can be improved.
+
+Overall, both browser-centric and user-centric metrics are important for understanding and optimizing the performance of web applications. Browser-centric metrics are important for identifying technical issues that can impact performance, while user-centric metrics are important for understanding how users are interacting with the website and how to improve the user experience.
+
 
 There are several performance metrics that can be used to evaluate the performance of web applications. Some of the most common ones include:
 
