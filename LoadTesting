@@ -1,1 +1,14 @@
-The "performance testing process" refers to a systematic approach or set of activities designed to evaluate and measure the performance characteristics of a software application, system, or component. It involves conducting various tests and assessments to assess the performance, responsiveness, scalability, and stability of the system under specific conditions and workloads. The process typically includes defining performance goals, identifying test scenarios, executing tests, collecting and analyzing performance data, and making recommendations for improvement based on the findings. The performance testing process aims to identify potential bottlenecks, issues, or areas for optimization to ensure that the application or system can meet the desired performance requirements and deliver a satisfactory user experience.
+import com.atlassian.jira.component.ComponentAccessor
+
+def changeHistoryManager = ComponentAccessor.getChangeHistoryManager()
+
+def issue = ComponentAccessor.getIssueManager().getIssueByCurrentKey("JIRA-123") // Replace "JIRA-123" with your actual issue key
+
+def statusChangeItems = changeHistoryManager.getChangeItemsForField(issue, "status")
+if (statusChangeItems) {
+    def latestStatusChange = statusChangeItems.last()
+    def changeDate = latestStatusChange.getCreated()
+    println "Status changed on: " + changeDate
+} else {
+    println "No status change found for the issue."
+}
