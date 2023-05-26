@@ -1,14 +1,7 @@
-import com.atlassian.jira.component.ComponentAccessor
+Thank you for your prompt response. I appreciate your assistance in clarifying the availability of software packages for server installs. While I understand that your team does not provide the software packages directly, I would like to explore any possible alternatives to acquire the required software, as it is crucial for our project.
 
-def changeHistoryManager = ComponentAccessor.getChangeHistoryManager()
+Considering the current circumstances, where I do not have access to other means for obtaining the software, I kindly request your guidance on potential solutions or alternatives. Perhaps you could provide recommendations on authorized sources or vendors where I could purchase the required software packages for server installation. Alternatively, if there are any specific licensing or distribution channels that could be explored, I would be grateful for your insights.
 
-def issue = ComponentAccessor.getIssueManager().getIssueByCurrentKey("JIRA-123") // Replace "JIRA-123" with your actual issue key
+As the software is essential for our project's success, I want to ensure that we adhere to the appropriate procedures and protocols while obtaining it. Therefore, any information you can provide regarding authorized acquisition channels or potential options would be greatly appreciated.
 
-def statusChangeItems = changeHistoryManager.getChangeItemsForField(issue, "status")
-if (statusChangeItems) {
-    def latestStatusChange = statusChangeItems.last()
-    def changeDate = latestStatusChange.getCreated()
-    println "Status changed on: " + changeDate
-} else {
-    println "No status change found for the issue."
-}
+Thank you for your attention to this matter, and I look forward to your further guidance.
