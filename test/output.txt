@@ -1,4 +1,11 @@
-Database applications are computer programs that are used to retrieve information from a computerized database. They can also be used to insert, modify or delete information in the database². Database applications are used to search, sort, calculate, report and share information¹. They can also contain code to perform mathematical and statistical calculations on the data to support queries submitted by users¹. Database applications provide security by restricting access to data based upon user names and passwords¹.
+In the context of software performance testing, a "baseline parameter" typically refers to a set of predefined metrics or measurements that serve as a reference point for evaluating the performance of an application or system.
 
-The main purpose of database applications is to provide a way for data to be consumed either by end users (via UI) or other higher-level applications (via APIs). A database application can be used for storing or retrieving data, processing transactions, or various machine learning calculations³.
+When conducting performance testing, you typically establish a baseline by running tests on the software in a controlled environment under specific conditions. This allows you to measure various performance metrics, such as response time, throughput, resource utilization, or error rates.
 
+The baseline parameter represents the performance levels achieved by the system under normal or expected conditions. It serves as a benchmark against which subsequent performance tests can be compared to identify any deviations or improvements.
+
+By establishing a baseline parameter, you can monitor and track the performance of the software over time or after making changes. This helps in identifying performance regressions, bottlenecks, or areas where improvements are needed. For example, if the response time of the system increases beyond a certain threshold compared to the baseline, it may indicate a performance degradation.
+
+Baseline parameters are typically determined based on factors like user expectations, system requirements, or industry standards. They provide a reference point for assessing the effectiveness of performance optimization efforts, capacity planning, or evaluating the impact of system changes.
+
+It's important to note that baseline parameters may vary depending on the specific software application, the workload being tested, and the performance goals of the system. They are typically established through initial performance testing and are regularly reviewed and updated as the software evolves.
