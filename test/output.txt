@@ -1,1 +1,4 @@
-Alis has got a cat
+Database applications are computer programs that are used to retrieve information from a computerized database. They can also be used to insert, modify or delete information in the database². Database applications are used to search, sort, calculate, report and share information¹. They can also contain code to perform mathematical and statistical calculations on the data to support queries submitted by users¹. Database applications provide security by restricting access to data based upon user names and passwords¹.
+
+The main purpose of database applications is to provide a way for data to be consumed either by end users (via UI) or other higher-level applications (via APIs). A database application can be used for storing or retrieving data, processing transactions, or various machine learning calculations³.
+
