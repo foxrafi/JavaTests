@@ -1,11 +1,9 @@
-In the context of software performance testing, a "baseline parameter" typically refers to a set of predefined metrics or measurements that serve as a reference point for evaluating the performance of an application or system.
+Dear Anna,
 
-When conducting performance testing, you typically establish a baseline by running tests on the software in a controlled environment under specific conditions. This allows you to measure various performance metrics, such as response time, throughput, resource utilization, or error rates.
+I hope this email finds you well. I wanted to inform you that, currently, we don't have any immediate plans to enter information about this tool into xxx. It is intended to be an internal tool for QM, exclusively running in the test region. Moreover, once the tool is fully developed, we won't deploy it on production either.
 
-The baseline parameter represents the performance levels achieved by the system under normal or expected conditions. It serves as a benchmark against which subsequent performance tests can be compared to identify any deviations or improvements.
+I wanted to mention that the development process hasn't begun yet due to the unavailability of a Linux machine required for the task. Consequently, we have submitted a request to acquire one. If you have any further inquiries or require additional clarification, please don't hesitate to let me know.
 
-By establishing a baseline parameter, you can monitor and track the performance of the software over time or after making changes. This helps in identifying performance regressions, bottlenecks, or areas where improvements are needed. For example, if the response time of the system increases beyond a certain threshold compared to the baseline, it may indicate a performance degradation.
+Thank you for your understanding and cooperation.
 
-Baseline parameters are typically determined based on factors like user expectations, system requirements, or industry standards. They provide a reference point for assessing the effectiveness of performance optimization efforts, capacity planning, or evaluating the impact of system changes.
-
-It's important to note that baseline parameters may vary depending on the specific software application, the workload being tested, and the performance goals of the system. They are typically established through initial performance testing and are regularly reviewed and updated as the software evolves.
+Kind regards,
