@@ -1,22 +1,13 @@
-Hello Team,
+I hope this email finds you well. I would like to draw your attention to our shared SharePoint document labeled "XXX," accessible via the following link: https://test.bb.com/doc1.
 
-I trust this message finds you all in good health. I would like to bring your attention to our shared SharePoint document titled "XXX," which you can access using the following link: https://test.bb.com/doc1.
-
-I am reaching out to request your assistance in reviewing the list of projects allocated to each of you within the 'Automation Coverage' tab. Your participation in updating the 'Automation Status' column to accurately reflect the current status of automation for each project would be greatly appreciated. To streamline the process, we have provided a set of predefined options for the automation statuses:
+We kindly request your esteemed consideration in reviewing the roster of projects designated to your respective roles under the 'Automation Coverage' section. Your valuable input is sought to accurately update the 'Automation Status' column, aligning it with the current state of automation for each project. Your cooperation in assigning one of the predefined values listed below for the automation statuses is greatly appreciated:
 
 Active
 Requires Maintenance
-Requires Maintenance (No Resource)
+Requires Maintenance (No Resources)
 Deprecated
-Furthermore, I kindly ask you to take a moment to review the '2023 Automation Targets' tab. Should you come across any ongoing test automation projects that have yet to be included in the 'Automation Coverage' tab, I kindly request your support in relocating them accordingly.
+Moreover, I would like to kindly ask you to peruse the '2023 Automation Targets' tab. Should you identify any ongoing test automation projects absent from the 'Automation Coverage' section, we kindly urge you to relocate them accordingly.
 
-Your willingness to assist and collaborate is truly valued as we continue to enhance our automation endeavors. I extend my sincere gratitude for your contribution and cooperation.
+Your kind support and involvement are sincerely valued as we work to enhance our automation processes. We extend our gratitude for your valuable assistance and collaboration.
 
-Best regards,
-
-John
-
-
-
-
-
+Warm regards,
