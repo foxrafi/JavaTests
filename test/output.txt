@@ -1,3 +1,22 @@
+Hello Team,
 
-"Your dedication to excellence is so impressive, it's like you've turned the office into a well-oiled awesomeness machine! Keep up the fantastic work as we cruise through the year, Captain John!"
+I trust this message finds you all in good health. I would like to bring your attention to our shared SharePoint document titled "XXX," which you can access using the following link: https://test.bb.com/doc1.
+
+I am reaching out to request your assistance in reviewing the list of projects allocated to each of you within the 'Automation Coverage' tab. Your participation in updating the 'Automation Status' column to accurately reflect the current status of automation for each project would be greatly appreciated. To streamline the process, we have provided a set of predefined options for the automation statuses:
+
+Active
+Requires Maintenance
+Requires Maintenance (No Resource)
+Deprecated
+Furthermore, I kindly ask you to take a moment to review the '2023 Automation Targets' tab. Should you come across any ongoing test automation projects that have yet to be included in the 'Automation Coverage' tab, I kindly request your support in relocating them accordingly.
+
+Your willingness to assist and collaborate is truly valued as we continue to enhance our automation endeavors. I extend my sincere gratitude for your contribution and cooperation.
+
+Best regards,
+
+John
+
+
+
+
 
