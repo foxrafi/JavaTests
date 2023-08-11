@@ -1,4 +1,4 @@
-Before running software performance tests, it's important to gather relevant information from the development team to ensure that the tests are accurate and comprehensive. Here are some key questions to ask the development team regarding capacity before conducting performance tests:
+Of course! Here's a merged list of questions to ask the development team before running software performance tests, including both the initial list and the additional questions:
 
 1. **Expected User Load:**
    - What is the expected number of concurrent users or transactions that the system needs to support?
@@ -48,4 +48,60 @@ Before running software performance tests, it's important to gather relevant inf
     - What are the specific goals of the performance tests? (e.g., response time, throughput, resource utilization)
     - Are there any specific scenarios or use cases that need to be tested?
 
-By gathering answers to these questions, you'll have a better understanding of the application's expected capacity requirements and potential bottlenecks. This information will guide your performance testing strategy and help you design tests that accurately reflect real-world usage scenarios.
+13. **Concurrency and Workload:**
+    - How does the application handle simultaneous requests from multiple users?
+    - Are there any background tasks, scheduled jobs, or batch processes that impact the system's capacity?
+
+14. **Geographic Distribution:**
+    - Will the application be used by users from different geographic locations?
+    - Are there any specific regions where the user load might be concentrated?
+
+15. **Network Latency and Bandwidth:**
+    - Are there any expected constraints on network latency or available bandwidth?
+    - How does the application handle slow or unreliable network connections?
+
+16. **Security and Authentication:**
+    - Are there security mechanisms in place, such as authentication and authorization?
+    - How does security impact the performance of the application?
+
+17. **Error Handling and Logging:**
+    - How are errors and exceptions handled within the application?
+    - What level of logging is implemented, and how might it impact performance?
+
+18. **Session Management:**
+    - How are user sessions managed? Are sessions stored in memory, databases, or cookies?
+    - How does session management impact scalability and performance?
+
+19. **Third-Party Libraries and Frameworks:**
+    - Are there any third-party libraries, frameworks, or components that the application relies on?
+    - How might these external dependencies affect performance?
+
+20. **Testing Environment Realism:**
+    - How closely does the testing environment resemble the production environment?
+    - Are there any differences in hardware, network configurations, or software versions?
+
+21. **Scaling Strategy:**
+    - How does the application scale in response to increased user loads? (e.g., horizontal scaling, vertical scaling)
+    - Are there any automatic scaling mechanisms in place?
+
+22. **Load Testing Scenarios:**
+    - Are there specific scenarios you want to test, such as peak load, gradual ramp-up, or sustained load?
+    - Are there any specific user interactions or transactions that should be emphasized in testing?
+
+23. **Response Time Expectations:**
+    - What are the acceptable response time thresholds for different types of interactions?
+    - How do these thresholds vary based on user roles and tasks?
+
+24. **Resource Monitoring and Metrics:**
+    - What metrics or tools are used to monitor the application's resource utilization during testing?
+    - How will you measure CPU usage, memory consumption, disk I/O, and network usage?
+
+25. **Recovery and Failover Testing:**
+    - How does the application recover from failures, crashes, or unexpected errors?
+    - Have failover mechanisms been tested for high availability scenarios?
+
+26. **Long-Term Trends:**
+    - Are there any expected changes or updates to the application in the near future?
+    - How might these changes impact capacity requirements?
+
+These questions will provide a solid foundation for planning and conducting performance tests that accurately reflect the software's capacity requirements and potential challenges.
