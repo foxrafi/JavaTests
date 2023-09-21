@@ -1,18 +1,17 @@
-Subject: Inquiry Regarding IntelliJ Ultimate License Allocation
+Subject: Urgent Request for Proxy Setting Restoration
 
-Dear Team,
+Dear EUC Engineering Team,
 
-I hope this message finds you well. I am writing to address a matter of importance concerning our current resources.
+I hope this message finds you well. I am writing to bring to your attention a critical issue we have encountered regarding our ability to update proxy settings across various browsers, including Firefox, Chrome, and Edge. This functionality holds significant importance for our operations, as it enables us to record performance test scenarios within our designated performance test tool, Neoload.
 
-In light of the recent shortage of IntelliJ Ultimate licenses, I kindly request that you please provide me with information regarding the number of individuals within our organization who are currently utilizing IntelliJ Ultimate licenses.
+Previously, our account had been granted access to the proxy_override group, which allowed us to seamlessly manage proxy settings. Regrettably, this capability has ceased to function as expected starting this week. Consequently, we are currently unable to modify proxy settings, which in turn inhibits our ability to record performance test scenarios on both our laptops and virtual desktop infrastructures (VDIs).
 
-Your prompt response to this request will greatly assist us in managing our licensing resources more efficiently. Your cooperation is greatly appreciated.
+In light of the above, I kindly request your assistance in restoring the previous setup that permitted us to modify proxy settings. Without this crucial functionality, our development efforts on laptops and VDIs are severely hindered.
 
-Thank you for your attention to this matter.
+Your prompt attention to this matter would be greatly appreciated, as it directly impacts our ability to carry out essential tasks. If you require any further information or clarification, please do not hesitate to reach out.
 
-Sincerely,
+Thank you for your understanding and assistance in resolving this issue.
 
-[Your Name]
-[Your Position]
-[Company Name]
-[Contact Information]
+Warm regards,
+
+John
