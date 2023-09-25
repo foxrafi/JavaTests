@@ -1,1 +1,14 @@
-With 11 years of dedicated service, I strongly recommend promoting Adam to Assistant Vice President. His consistent contributions to user support, customization, tool upgrades (Jira, QTEST, TestComplete, NeoLoad, UFT), and his recent successful leadership in implementing the database action request process in Jira showcase his exceptional capabilities. Adam's proactive approach, technical expertise, and ability to lead autonomously make him a standout candidate. Positive feedback from colleagues, paired with his knack for simplifying complex concepts, further underscore his readiness for greater responsibilities. Elevating Adam would both acknowledge his achievements and enable him to contribute even more effectively to our department's success.
+Dear Debra,
+
+I hope this email finds you well. I am writing to provide you with some information regarding TestComplete and TestExecute, which are test automation software hosted on-premise. The license server, also hosted on-premise, can be accessed via the following URL: [^1^][1].
+
+Please note that the installation of TestComplete and TestExecute is handled by the ABC team, not by us. Unfortunately, I am unable to view the content of ticket BBB at the moment, which is why I cannot check it myself. However, our company should currently have 15 floating licenses of the TestComplete platform, 15 floating licenses of TestExecute, 15 floating licenses of the TestComplete desktop module, and 5 floating licenses of the TestComplete web module. These numbers are subject to change, so it would be best if John could verify the exact requirements.
+
+Once the software is installed on a user workstation, we provide instructions on how to connect to the XXX license server. After configuring it, a new user can start the program and begin using it. Therefore, there is no need for you to reach out to us for installation purposes. However, if any user encounters difficulties connecting to the license server, they should feel free to contact us for assistance.
+
+If you need to access the current license server, please use this URL: [^2^][2].
+
+Please don't hesitate to reach out if you have any further questions or require additional information.
+
+Kind regards,
+[Your Name]
