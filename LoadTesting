@@ -1,6 +1,3 @@
-Certainly! To achieve this, you can use a Python script that reads the CSV file, constructs a tree structure, and assigns each record information about whether it is a leaf or a parent. Here's an example code for this task:
-
-```python
 import csv
 
 class Node:
@@ -8,19 +5,20 @@ class Node:
         self.data = data
         self.children = []
 
-def construct_tree(csv_file_path):
-    tree = {}
+def construct_trees(csv_file_path):
+    trees = {}
     with open(csv_file_path, 'r') as file:
         reader = csv.reader(file)
         header = next(reader)  # assuming the first row contains headers
         for row in reader:
             parent_key, child_key = row[:2]  # Assuming the first two columns represent parent and child keys
-            if parent_key not in tree:
-                tree[parent_key] = Node(parent_key)
-            if child_key not in tree:
-                tree[child_key] = Node(child_key)
-            tree[parent_key].children.append(tree[child_key])
-    return tree
+            if parent_key not in trees:
+                trees[parent_key] = Node(parent_key)
+            if child_key not in trees:
+                trees[child_key] = Node(child_key)
+            trees[parent_key].children.append(trees[child_key])
+    
+    return trees
 
 def mark_leaves_and_parents(node):
     if not node.children:
@@ -32,19 +30,16 @@ def mark_leaves_and_parents(node):
 
 def main():
     csv_file_path = 'your_file.csv'  # Replace with your actual file path
-    root_key = 'root'  # You can choose a root key based on your data
 
-    tree = construct_tree(csv_file_path)
-    root = tree[root_key]
+    trees = construct_trees(csv_file_path)
 
-    mark_leaves_and_parents(root)
+    for root_key, root_node in trees.items():
+        mark_leaves_and_parents(root_node)
 
-    # Now you can access the information about each node, e.g., print the type of each node
-    for node_key, node in tree.items():
-        print(f"Node: {node_key}, Type: {node.data['type']}")
+        # Now you can access the information about each node in the current tree
+        print(f"Tree with Root {root_key}:")
+        for node_key, node in trees.items():
+            print(f"  Node: {node_key}, Type: {node.data['type']}")
 
 if __name__ == "__main__":
     main()
-```
-
-This code assumes that the CSV file has at least two columns representing the parent and child keys. You may need to modify it based on the actual structure of your CSV file. Also, make sure to replace `'your_file.csv'` with the actual path to your CSV file and adjust the root key according to your data.
