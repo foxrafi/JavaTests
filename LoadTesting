@@ -1,26 +1,50 @@
+Certainly! To achieve this, you can use a Python script that reads the CSV file, constructs a tree structure, and assigns each record information about whether it is a leaf or a parent. Here's an example code for this task:
+
+```python
 import csv
 
-def generate_sql_insert(csv_file):
-    sql_insert_statements = []
+class Node:
+    def __init__(self, data):
+        self.data = data
+        self.children = []
 
-    with open(csv_file, 'r') as csvfile:
-        reader = csv.DictReader(csvfile)
+def construct_tree(csv_file_path):
+    tree = {}
+    with open(csv_file_path, 'r') as file:
+        reader = csv.reader(file)
+        header = next(reader)  # assuming the first row contains headers
         for row in reader:
-            nam = row['NAM']
-            des = row['DES']
-            parent_id = row['PARENT ID']
+            parent_key, child_key = row[:2]  # Assuming the first two columns represent parent and child keys
+            if parent_key not in tree:
+                tree[parent_key] = Node(parent_key)
+            if child_key not in tree:
+                tree[child_key] = Node(child_key)
+            tree[parent_key].children.append(tree[child_key])
+    return tree
 
-            sql_insert = f"INSERT INTO AC_TEC_CAP_PARNT_ID (NAM, DES, PARENT_ID) VALUES ('{nam}', '{des}', '{parent_id}');"
-            sql_insert_statements.append(sql_insert)
-
-    return sql_insert_statements
+def mark_leaves_and_parents(node):
+    if not node.children:
+        node.data['type'] = 'leaf'
+    else:
+        node.data['type'] = 'parent'
+        for child in node.children:
+            mark_leaves_and_parents(child)
 
 def main():
-    csv_file_path = 'your_input_csv_file.csv'  # Update with the path to your CSV file
-    sql_insert_statements = generate_sql_insert(csv_file_path)
+    csv_file_path = 'your_file.csv'  # Replace with your actual file path
+    root_key = 'root'  # You can choose a root key based on your data
 
-    with open('output_sql_inserts.sql', 'w') as sql_file:
-        sql_file.write('\n'.join(sql_insert_statements))
+    tree = construct_tree(csv_file_path)
+    root = tree[root_key]
+
+    mark_leaves_and_parents(root)
+
+    # Now you can access the information about each node, e.g., print the type of each node
+    for node_key, node in tree.items():
+        print(f"Node: {node_key}, Type: {node.data['type']}")
 
 if __name__ == "__main__":
     main()
+```
+
+This code assumes that the CSV file has at least two columns representing the parent and child keys. You may need to modify it based on the actual structure of your CSV file. Also, make sure to replace `'your_file.csv'` with the actual path to your CSV file and adjust the root key according to your data.
