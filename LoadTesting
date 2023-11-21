@@ -1,45 +1,56 @@
+Certainly! I'll extend the code to include 'name' and 'description' fields for each node. Here's the modified code:
+
+```python
 import csv
 
 class Node:
-    def __init__(self, data):
-        self.data = data
+    def __init__(self, key, name, description):
+        self.key = key
+        self.name = name
+        self.description = description
         self.children = []
 
 def construct_trees(csv_file_path):
-    trees = {}
+    nodes = {}
     with open(csv_file_path, 'r') as file:
         reader = csv.reader(file)
         header = next(reader)  # assuming the first row contains headers
         for row in reader:
-            parent_key, child_key = row[:2]  # Assuming the first two columns represent parent and child keys
-            if parent_key not in trees:
-                trees[parent_key] = Node(parent_key)
-            if child_key not in trees:
-                trees[child_key] = Node(child_key)
-            trees[parent_key].children.append(trees[child_key])
-    
-    return trees
+            parent_key, child_key, child_name, child_description = row[:4]  # Assuming the first four columns represent parent key, child key, name, and description
+            if parent_key not in nodes:
+                nodes[parent_key] = Node(parent_key, None, None)
+            if child_key not in nodes:
+                nodes[child_key] = Node(child_key, child_name, child_description)
+            nodes[parent_key].children.append(nodes[child_key])
+
+    # Find roots by checking which nodes do not appear as children in any other node
+    roots = [node for node in nodes.values() if not any(node in other_node.children for other_node in nodes.values())]
+
+    return roots, nodes
 
 def mark_leaves_and_parents(node):
     if not node.children:
-        node.data['type'] = 'leaf'
+        node.data = {'type': 'leaf', 'name': node.name, 'description': node.description}
     else:
-        node.data['type'] = 'parent'
+        node.data = {'type': 'parent', 'name': node.name, 'description': node.description}
         for child in node.children:
             mark_leaves_and_parents(child)
 
 def main():
     csv_file_path = 'your_file.csv'  # Replace with your actual file path
 
-    trees = construct_trees(csv_file_path)
+    roots, nodes = construct_trees(csv_file_path)
 
-    for root_key, root_node in trees.items():
+    for root_node in roots:
         mark_leaves_and_parents(root_node)
 
         # Now you can access the information about each node in the current tree
-        print(f"Tree with Root {root_key}:")
-        for node_key, node in trees.items():
-            print(f"  Node: {node_key}, Type: {node.data['type']}")
+        print(f"Tree with Root {root_node.key}, Type: {root_node.data['type']}:")
+        for node_key, node in nodes.items():
+            print(f"  Node: {node_key}, Type: {node.data['type']}, Name: {node.data['name']}, Description: {node.data['description']}")
 
 if __name__ == "__main__":
     main()
+```
+
+In this version, each `Node` instance now has 'name' and 'description' attributes. The CSV parsing has been updated to include these fields, and the information is printed for each node, including the name and description.
