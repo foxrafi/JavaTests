@@ -1,48 +1,29 @@
-The data retention process involves several key steps to ensure that data is managed effectively, securely, and in compliance with applicable laws and regulations. Here is a general outline of the steps involved in the data retention process:
+import pandas as pd
 
-1. **Identify Data Categories:**
-   - Classify and categorize data based on its type, sensitivity, and importance.
+# Read the CSV file into a DataFrame
+df = pd.read_csv('your_file.csv')
 
-2. **Define Retention Periods:**
-   - Determine how long each category of data should be retained. This decision may be influenced by legal requirements, business needs, and industry standards.
+# Initialize an empty tree dictionary
+tree = {}
 
-3. **Document Retention Policies:**
-   - Clearly document and communicate data retention policies throughout the organization. Make sure employees understand the guidelines for handling different types of data.
+# Iterate through rows and build the tree
+for index, row in df.iterrows():
+    level_1, level_2, level_3 = row
+    if level_1 not in tree:
+        tree[level_1] = {}
+    if level_2 not in tree[level_1]:
+        tree[level_1][level_2] = []
+    tree[level_1][level_2].append(level_3)
 
-4. **Implement Data Minimization:**
-   - Collect only the data that is necessary for the intended purpose. Minimize the amount of data collected to reduce the risk and scope of retention.
+# Function to print the tree
+def print_tree(tree, indent=0):
+    for key, value in tree.items():
+        print('  ' * indent + str(key))
+        if isinstance(value, dict):
+            print_tree(value, indent + 1)
+        else:
+            for item in value:
+                print('  ' * (indent + 1) + str(item))
 
-5. **Secure Storage:**
-   - Store data in secure environments with access controls, encryption, and other appropriate security measures to prevent unauthorized access and ensure data integrity.
-
-6. **Regularly Review and Update Policies:**
-   - Periodically review and update data retention policies to ensure they remain aligned with legal requirements and business needs. This is crucial as laws and business priorities can change over time.
-
-7. **Data Backup and Recovery:**
-   - Implement regular backup procedures to safeguard against data loss. Ensure that data can be recovered efficiently in case of accidental deletion or system failures.
-
-8. **Data Deletion Procedures:**
-   - Establish clear procedures for the secure deletion of data that has reached the end of its retention period or is no longer necessary for the intended purpose.
-
-9. **Archiving:**
-   - For data that needs to be retained for historical or compliance purposes but is not actively used, consider archiving it in a secure and easily retrievable manner.
-
-10. **Monitoring and Auditing:**
-    - Implement monitoring and auditing mechanisms to track access to and changes in the data. Regularly audit these logs to ensure compliance and identify any potential security incidents.
-
-11. **Legal and Regulatory Compliance:**
-    - Stay informed about and comply with relevant data protection laws and industry regulations. Ensure that your data retention practices align with legal requirements in all jurisdictions where you operate.
-
-12. **Employee Training and Awareness:**
-    - Educate employees about the importance of data retention policies, including the reasons behind them and the potential risks associated with non-compliance.
-
-13. **Data Protection Impact Assessments (DPIAs):**
-    - Conduct DPIAs for new projects or changes in data processing activities to assess and mitigate potential privacy risks.
-
-14. **Communication and Transparency:**
-    - Communicate clearly with data subjects about how their data will be retained and for what purposes. Ensure transparency in your data retention practices.
-
-15. **Disposal of Hardware:**
-    - If data is stored on physical devices, ensure secure disposal methods when retiring or decommissioning hardware to prevent data breaches.
-
-These steps provide a comprehensive framework for managing the data retention process. Tailor them to the specific needs and requirements of your organization and the types of data you handle. Regularly review and update your data retention practices to adapt to changing circumstances.
+# Print the tree
+print_tree(tree)
