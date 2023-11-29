@@ -1,43 +1,157 @@
-import csv
+**Data Retention Policy Documentation Template**
 
-class TreeNode:
-    def __init__(self, id, name, parent_id):
-        self.id = id
-        self.name = name
-        self.parent_id = parent_id
-        self.children = []
+---
 
-def build_tree(records):
-    id_to_node = {}
-    root = None
+# Data Retention Policy for qTest Manager
 
-    for record in records:
-        node = TreeNode(record['id'], record['nam'], record['parent_id'])
-        id_to_node[node.id] = node
+## 1. Introduction
 
-        if not node.parent_id:
-            root = node
-        else:
-            parent = id_to_node.get(node.parent_id)
-            if parent:
-                parent.children.append(node)
+### 1.1 Purpose
 
-    return root
+This document outlines the data retention policy for qTest Manager, specifying the principles and procedures governing user information.
 
-def print_tree(node, is_leaf):
-    print(f"{node.id},{node.name},{node.parent_id},{is_leaf}")
+### 1.2 Scope
 
-    for child in node.children:
-        print_tree(child, not bool(child.children))
+This policy applies to all aspects of user information within qTest Manager, ensuring compliance with data protection laws and industry standards.
 
-def main():
-    with open('your_file.csv', 'r') as file:
-        reader = csv.DictReader(file)
-        records = list(reader)
+### 1.3 Revision History
 
-    root = build_tree(records)
-    print("id,nam,parent_id,is_leaf")
-    print_tree(root, not bool(root.children))
+| Version | Date       | Author     |
+| ------- | ---------- | ---------- |
+| 1.0     | 2023-11-29 | [Your Name]|
 
-if __name__ == "__main__":
-    main()
+---
+
+## 2. Overview
+
+### 2.1 Description
+
+qTest Manager is a test management software developed and maintained by [Your Company].
+
+### 2.2 Functionality
+
+The software handles user information with a focus on data minimization and purpose limitation.
+
+### 2.3 User Information
+
+Sensitive data refers to user information; however, no production data is stored.
+
+---
+
+## 3. Data Retention Principles
+
+### 3.1 Minimization
+
+Collect and retain only necessary user information.
+
+### 3.2 Purpose Limitation
+
+Specify and adhere to the purpose of data collection.
+
+### 3.3 Storage Limitation
+
+Define storage periods for user information.
+
+---
+
+## 4. Data Retention Periods
+
+### 4.1 User Information
+
+Specify the retention period for user data.
+
+### 4.2 Test Data
+
+Define the duration for retaining test data.
+
+### 4.3 Historical Data
+
+Outline the retention period for historical data.
+
+---
+
+## 5. Data Handling Procedures
+
+### 5.1 Collection
+
+Detail procedures for collecting user information.
+
+### 5.2 Storage
+
+Define secure storage measures for user data.
+
+### 5.3 Deletion
+
+Specify procedures for user data deletion.
+
+---
+
+## 6. Security Measures
+
+### 6.1 Access Controls
+
+Implement strict access controls for user information.
+
+### 6.2 Encryption
+
+Utilize encryption for stored user data.
+
+### 6.3 Monitoring
+
+Regularly monitor and audit data handling processes.
+
+---
+
+## 7. Compliance
+
+### 7.1 Data Protection Laws
+
+Ensure compliance with relevant data protection laws.
+
+### 7.2 Industry Standards
+
+Adhere to established industry standards for data retention.
+
+---
+
+## 8. Policy Enforcement
+
+### 8.1 Responsibilities
+
+Assign responsibilities for policy enforcement.
+
+### 8.2 Training
+
+Provide training on data retention policies.
+
+### 8.3 Monitoring
+
+Establish monitoring and reporting mechanisms.
+
+---
+
+## 9. Review and Revision
+
+### 9.1 Regular Review
+
+Schedule regular reviews of the data retention policy.
+
+### 9.2 Revision
+
+Update the policy as needed, based on reviews.
+
+---
+
+## 10. Contact Information
+
+### 10.1 Data Protection Officer
+
+Provide contact details for the Data Protection Officer.
+
+### 10.2 Support Contacts
+
+Include relevant support contacts for inquiries.
+
+---
+
+Customize placeholders with specific details relevant to your organization. Ensure the content aligns with your actual data retention practices and legal obligations.
