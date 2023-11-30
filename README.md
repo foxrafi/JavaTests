@@ -1,157 +1,58 @@
-**Data Retention Policy Documentation Template**
+# sqlGen2.py Readme
 
----
+## Overview
 
-# Data Retention Policy for qTest Manager
+`sqlGen2.py` is a Python script designed to generate SQL statements based on input parameters. This readme provides information on two specific use cases of the script.
 
-## 1. Introduction
+## Command 1:
 
-### 1.1 Purpose
+```bash
+./sqlGen2.py -t AC_BUS_CAP -f \bcm_input_file.txt > bcm_bus.sql
+```
 
-This document outlines the data retention policy for qTest Manager, specifying the principles and procedures governing user information.
+### Description:
 
-### 1.2 Scope
+This command generates SQL statements for the `AC_BUS_CAP` table using data from the specified `bcm_input_file.txt` and outputs the results to `bcm_bus.sql`.
 
-This policy applies to all aspects of user information within qTest Manager, ensuring compliance with data protection laws and industry standards.
+### Parameters:
 
-### 1.3 Revision History
+- `-t AC_BUS_CAP`: Specifies the target table as `AC_BUS_CAP`.
+- `-f \bcm_input_file.txt`: Specifies the input file path for data.
+- `> bcm_bus.sql`: Redirects the generated SQL statements to the `bcm_bus.sql` file.
 
-| Version | Date       | Author     |
-| ------- | ---------- | ---------- |
-| 1.0     | 2023-11-29 | [Your Name]|
+## Command 2:
 
----
+```bash
+./sqlGen2.py -t AC_TEC_CAP -f \tcm_input_file.txt > tcm_tec.sql
+```
 
-## 2. Overview
+### Description:
 
-### 2.1 Description
+This command generates SQL statements for the `AC_TEC_CAP` table using data from the specified `tcm_input_file.txt` and outputs the results to `tcm_tec.sql`.
 
-qTest Manager is a test management software developed and maintained by [Your Company].
+### Parameters:
 
-### 2.2 Functionality
+- `-t AC_TEC_CAP`: Specifies the target table as `AC_TEC_CAP`.
+- `-f \tcm_input_file.txt`: Specifies the input file path for data.
+- `> tcm_tec.sql`: Redirects the generated SQL statements to the `tcm_tec.sql` file.
 
-The software handles user information with a focus on data minimization and purpose limitation.
+## Usage:
 
-### 2.3 User Information
+1. Ensure that `sqlGen2.py` is in the same directory as the input files.
+2. Run the desired command based on the table and input file requirements.
+3. The generated SQL statements will be saved in the specified output file.
 
-Sensitive data refers to user information; however, no production data is stored.
+## Example:
 
----
+```bash
+./sqlGen2.py -t AC_BUS_CAP -f \bcm_input_file.txt > bcm_bus.sql
+```
 
-## 3. Data Retention Principles
+This will generate SQL statements for the `AC_BUS_CAP` table using data from `bcm_input_file.txt` and save them in the `bcm_bus.sql` file.
 
-### 3.1 Minimization
+## Note:
 
-Collect and retain only necessary user information.
+- Adjust file paths and names according to your specific setup.
+- Ensure the input files contain valid data for the specified table.
 
-### 3.2 Purpose Limitation
-
-Specify and adhere to the purpose of data collection.
-
-### 3.3 Storage Limitation
-
-Define storage periods for user information.
-
----
-
-## 4. Data Retention Periods
-
-### 4.1 User Information
-
-Specify the retention period for user data.
-
-### 4.2 Test Data
-
-Define the duration for retaining test data.
-
-### 4.3 Historical Data
-
-Outline the retention period for historical data.
-
----
-
-## 5. Data Handling Procedures
-
-### 5.1 Collection
-
-Detail procedures for collecting user information.
-
-### 5.2 Storage
-
-Define secure storage measures for user data.
-
-### 5.3 Deletion
-
-Specify procedures for user data deletion.
-
----
-
-## 6. Security Measures
-
-### 6.1 Access Controls
-
-Implement strict access controls for user information.
-
-### 6.2 Encryption
-
-Utilize encryption for stored user data.
-
-### 6.3 Monitoring
-
-Regularly monitor and audit data handling processes.
-
----
-
-## 7. Compliance
-
-### 7.1 Data Protection Laws
-
-Ensure compliance with relevant data protection laws.
-
-### 7.2 Industry Standards
-
-Adhere to established industry standards for data retention.
-
----
-
-## 8. Policy Enforcement
-
-### 8.1 Responsibilities
-
-Assign responsibilities for policy enforcement.
-
-### 8.2 Training
-
-Provide training on data retention policies.
-
-### 8.3 Monitoring
-
-Establish monitoring and reporting mechanisms.
-
----
-
-## 9. Review and Revision
-
-### 9.1 Regular Review
-
-Schedule regular reviews of the data retention policy.
-
-### 9.2 Revision
-
-Update the policy as needed, based on reviews.
-
----
-
-## 10. Contact Information
-
-### 10.1 Data Protection Officer
-
-Provide contact details for the Data Protection Officer.
-
-### 10.2 Support Contacts
-
-Include relevant support contacts for inquiries.
-
----
-
-Customize placeholders with specific details relevant to your organization. Ensure the content aligns with your actual data retention practices and legal obligations.
+Feel free to reach out if you have any questions or encounter issues.
