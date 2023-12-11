@@ -1,0 +1,22 @@
+
+1. What is Apache JMeter, and how is it used in performance testing?
+2. Explain the key features and advantages of using JMeter for load testing.
+3. Describe the process of recording a test script in JMeter. What are the available recording methods?
+4. How does JMeter handle dynamic parameters in web applications during recording and playback?
+5. What is correlation in the context of JMeter, and why is it important in performance testing?
+6. Can you explain the concept of assertions in JMeter and how they are used to validate test results?
+7. Describe the various types of samplers in JMeter and when you might use each one.
+8. How does JMeter handle parameterization, and what are the different ways to parameterize data in a test plan?
+9. Explain the role of controllers in JMeter and provide examples of different types of controllers.
+10. What are the various types of listeners available in JMeter, and how are they used for result analysis?
+11. How can you simulate realistic user behavior in JMeter, considering factors like think time and pacing?
+12. Describe the purpose of thread groups in JMeter and how they influence the test execution.
+13. What is the significance of timers in JMeter, and how do they impact the pacing of requests?
+14. How can you distribute load across multiple machines using JMeter for large-scale testing?
+15. Explain the process of parameterization in JMeter and its importance in creating dynamic test scenarios.
+16. Discuss the types of controllers available in JMeter and when each type is appropriate to use.
+17. How does JMeter handle the extraction of data from responses for use in subsequent requests?
+18. Can you describe the role of pre-processors and post-processors in JMeter, and provide examples of when they might be used?
+19. What are the different types of assertions in JMeter, and how can they be used to validate response data?
+20. Explain the process of result analysis and reporting in JMeter, including the types of reports generated.
+

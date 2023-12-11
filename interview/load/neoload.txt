@@ -1,0 +1,21 @@
+
+1. What is NeoLoad, and how does it differ from other performance testing tools?
+2. Can you explain the key features and functionalities of NeoLoad?
+3. What are the primary components of a NeoLoad test script?
+4. Describe the process of recording a user scenario in NeoLoad.
+5. How does NeoLoad handle dynamic parameters in web applications during recording and playback?
+6. What is the purpose of runtime parameters in NeoLoad, and how are they configured?
+7. Explain the concept of population in NeoLoad and its significance in performance testing.
+8. How does NeoLoad handle correlation, and why is it important in performance testing?
+9. What types of protocols does NeoLoad support for load testing, and how can they be configured?
+10. Can you elaborate on how NeoLoad supports the testing of mobile applications?
+11. What is the purpose of Think Time in a NeoLoad scenario, and how is it configured?
+12. Describe the various types of monitors available in NeoLoad for collecting performance metrics.
+13. How can you simulate realistic user behavior in NeoLoad, considering factors like user pacing and distribution?
+14. Explain the concept of rendezvous points in NeoLoad and their role in load testing.
+15. What is the significance of SLAs (Service Level Agreements) in NeoLoad, and how are they configured?
+16. How does NeoLoad handle the distribution of virtual users across different load generators?
+17. Can you discuss the integration capabilities of NeoLoad with other tools and platforms?
+18. Explain the process of parameterization in NeoLoad and its importance in performance testing.
+19. How does NeoLoad handle result analysis and reporting? What types of reports are available?
+20. Discuss the various deployment options for NeoLoad and the factors to consider when choosing a deployment strategy.

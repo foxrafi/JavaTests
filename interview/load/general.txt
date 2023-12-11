@@ -1,0 +1,20 @@
+1. What is performance testing, and why is it important in the software development life cycle?
+2. Can you explain the difference between load testing and stress testing?
+3. How do you determine the performance requirements for a given application?
+4. What are the common performance bottlenecks in a web application, and how do you identify them?
+5. Can you describe the various types of performance testing? Provide examples for each.
+6. How do you simulate real-world scenarios in performance testing?
+7. What is the significance of ramp-up time in performance testing, and how is it configured?
+8. Explain the concept of response time in the context of performance testing.
+9. How do you analyze and interpret the results of a performance test?
+10. Can you elaborate on the challenges associated with testing applications in a cloud environment?
+11. What are the key metrics you consider when evaluating the performance of a web application?
+12. How do you approach performance testing for a microservices architecture?
+13. What role does monitoring play in performance testing, and what tools have you used for monitoring?
+14. Can you explain the difference between horizontal and vertical scaling in the context of performance testing?
+15. How do you handle performance testing for applications with a large user base or high concurrent users?
+16. What is the purpose of baseline testing, and how is it conducted?
+17. Explain the importance of correlation in performance testing scripts.
+18. How do you address security concerns in performance testing?
+19. Can you describe a scenario where you had to conduct performance testing for a mobile application?
+20. What strategies do you employ to ensure that performance testing aligns with the overall project goals and objectives?
