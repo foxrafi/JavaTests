@@ -1,58 +1,27 @@
-# sqlGen2.py Readme
+Sure, here are 10 managerial and 10 technical questions you can ask the candidate:
 
-## Overview
+**Managerial Questions:**
 
-`sqlGen2.py` is a Python script designed to generate SQL statements based on input parameters. This readme provides information on two specific use cases of the script.
+1. Can you describe a challenging situation you faced in a previous performance testing project and how you handled it?
+2. How do you prioritize tasks and manage your time effectively in a fast-paced AGILE environment?
+3. Have you led or participated in any performance testing training sessions for team members?
+4. How do you ensure effective communication and collaboration within your team and with other project stakeholders?
+5. Can you share an example of a successful performance improvement initiative you spearheaded in a previous role?
+6. How do you handle conflicts or disagreements within your team?
+7. Describe your approach to mentoring and developing junior team members.
+8. Have you implemented performance testing in a cloud environment, and if so, what challenges did you encounter?
+9. How do you stay updated with the latest trends and technologies in performance testing?
+10. Can you share an experience where you had to align performance testing goals with overall project objectives?
 
-## Command 1:
+**Technical Questions:**
 
-```bash
-./sqlGen2.py -t AC_BUS_CAP -f \bcm_input_file.txt > bcm_bus.sql
-```
-
-### Description:
-
-This command generates SQL statements for the `AC_BUS_CAP` table using data from the specified `bcm_input_file.txt` and outputs the results to `bcm_bus.sql`.
-
-### Parameters:
-
-- `-t AC_BUS_CAP`: Specifies the target table as `AC_BUS_CAP`.
-- `-f \bcm_input_file.txt`: Specifies the input file path for data.
-- `> bcm_bus.sql`: Redirects the generated SQL statements to the `bcm_bus.sql` file.
-
-## Command 2:
-
-```bash
-./sqlGen2.py -t AC_TEC_CAP -f \tcm_input_file.txt > tcm_tec.sql
-```
-
-### Description:
-
-This command generates SQL statements for the `AC_TEC_CAP` table using data from the specified `tcm_input_file.txt` and outputs the results to `tcm_tec.sql`.
-
-### Parameters:
-
-- `-t AC_TEC_CAP`: Specifies the target table as `AC_TEC_CAP`.
-- `-f \tcm_input_file.txt`: Specifies the input file path for data.
-- `> tcm_tec.sql`: Redirects the generated SQL statements to the `tcm_tec.sql` file.
-
-## Usage:
-
-1. Ensure that `sqlGen2.py` is in the same directory as the input files.
-2. Run the desired command based on the table and input file requirements.
-3. The generated SQL statements will be saved in the specified output file.
-
-## Example:
-
-```bash
-./sqlGen2.py -t AC_BUS_CAP -f \bcm_input_file.txt > bcm_bus.sql
-```
-
-This will generate SQL statements for the `AC_BUS_CAP` table using data from `bcm_input_file.txt` and save them in the `bcm_bus.sql` file.
-
-## Note:
-
-- Adjust file paths and names according to your specific setup.
-- Ensure the input files contain valid data for the specified table.
-
-Feel free to reach out if you have any questions or encounter issues.
+1. Explain the key differences between LoadRunner and JMeter in the context of performance testing.
+2. How do you design and execute a stress test, and what factors do you consider when determining stress levels?
+3. Can you provide an example of a complex performance testing scenario you encountered and how you approached it?
+4. Describe the process of debugging test scripts using C functions and JavaScript.
+5. How do you configure and use monitoring tools like App Dynamics and New Relic in a performance testing environment?
+6. What considerations are important when testing web services using SOAP UI and POSTMAN?
+7. Explain the steps involved in setting up and configuring Jenkins for performance testing automation.
+8. How do you analyze AWR reports from Oracle databases to identify and optimize time-consuming SQL queries?
+9. Can you share your experience with Riverbed and its role in performance testing?
+10. Describe a situation where you had to troubleshoot and resolve performance issues in a production environment.
