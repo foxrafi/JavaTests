@@ -1,81 +1,32 @@
-**Data Retention Policy Documentation Template**
+**Annual Assessment:**
 
----
+Employee Name: [Employee's Name]
 
-# Data Retention Policy for qTest Manager
+**Overview:**
+The employee has demonstrated a commendable performance throughout the year, consistently meeting and even exceeding expectations. Their commitment to both technical and soft skills development has significantly contributed to the success of various initiatives within the team.
 
-## Table of Contents
+**Technical Achievements:**
+1. Successfully completed most of the goals set at the beginning of 2023.
+2. Maintained QM applications like Insights, QMAD, and ensured the timely download and update of software in the section.
+3. Collaborated with the Security Operations team to resolve a complex issue with Playwright drivers, enabling direct downloads in IntelliJ.
+4. Active participation in QM Code Sharing and Metrics tool initiatives, leading to the development and improvement of crucial projects like qTest API Wrapper and Selenium Archetype.
+5. Played a key role in the Metrics tool initiative, attending weekly meetings, and contributing to the proof of concept, using the qTest API wrapper library to fetch data from various OM projects.
 
-1. **Introduction**
-   - 1.1 Purpose of the Document
-   - 1.2 Scope of the Data Retention Policy
-   - 1.3 Document Revision History
+**Soft Skills and Community Involvement:**
+1. Demonstrated leadership by assisting a colleague in Sonic mainframe test automation, showcasing expertise in business trades knowledge.
+2. Actively engaged in the Women in Technology community, serving as a panelist on a Career Journeys panel organized by Women's Network.
+3. Organized Global Test Automation Forum meetings, presenting on topics such as Playwright in test automation, Mainframe test automation, Ping Login authorization service, and Jira Connection Tool.
+4. Participated in the TestWarez 2023 Conference, enhancing knowledge on AI, testing trends, and tools.
 
-2. **Overview of qTest Manager**
-   - 2.1 Description
-   - 2.2 Functionality
-   - 2.3 User Information and Data Handling
+**Continuous Learning:**
+1. Actively pursued continuous learning by attending 2 API training sessions: API testing for beginners and REST API testing advanced level.
+2. Continued focus on skill development during the last quarter of 2023, particularly in Java and REST API knowledge.
 
-3. **Data Retention Principles**
-   - 3.1 Minimization of Data
-   - 3.2 Purpose Limitation
-   - 3.3 Data Accuracy
-   - 3.4 Storage Limitation
-   - 3.5 Data Integrity and Confidentiality
+**Future Outlook:**
+Expressed a positive outlook for 2024, with a commitment to further developing technical skills through work on OM Metrics tool and continued participation in the Code Sharing initiative.
 
-4. **Data Retention Periods**
-   - 4.1 User Information
-   - 4.2 Test Data
-   - 4.3 Historical Data
-   - 4.4 Backup and Recovery Data
+**Conclusion:**
+The employee's exemplary performance, proactive engagement in various initiatives, and dedication to continuous learning make them a valuable asset to the team. Their contributions have not only met but exceeded expectations, and they are well-positioned to take on more responsibilities in the coming year.
 
-5. **Data Handling Procedures**
-   - 5.1 Data Collection
-   - 5.2 Data Storage
-   - 5.3 Data Deletion
-   - 5.4 Data Archiving
-
-6. **Security Measures**
-   - 6.1 Access Controls
-   - 6.2 Encryption
-   - 6.3 Monitoring and Auditing
-
-7. **Compliance with Legal and Regulatory Requirements**
-   - 7.1 Data Protection Laws
-   - 7.2 Industry Standards
-
-8. **Data Retention Policy Enforcement**
-   - 8.1 Responsibilities
-   - 8.2 Training and Awareness
-   - 8.3 Monitoring and Reporting
-
-9. **Review and Revision**
-   - 9.1 Regular Review
-   - 9.2 Policy Revision
-
-10. **Contact Information**
-    - 10.1 Data Protection Officer
-    - 10.2 Support Contacts
-
----
-
-## 1. Introduction
-
-### 1.1 Purpose of the Document
-
-This document outlines the data retention policy for qTest Manager, a test management software developed and maintained by [Your Company]. The purpose of this policy is to define the principles, procedures, and guidelines for the retention and handling of user information within the application.
-
-### 1.2 Scope of the Data Retention Policy
-
-This policy applies to all aspects of user information within qTest Manager. It encompasses data collection, storage, deletion, and archiving processes. The policy is designed to ensure compliance with relevant data protection laws and industry standards.
-
-### 1.3 Document Revision History
-
-| Version | Date       | Author          | Comments                    |
-| --------|------------|-----------------|-----------------------------|
-| 1.0     | 2023-11-29 | [Your Name]     | Initial Draft               |
-| 1.1     | [Date]     | [Author Name]   | [Comments on Revisions]    |
-
----
-
-Continue with the subsequent sections, providing detailed information about each aspect of the data retention policy. Customize the placeholders like "[Your Company]," "[Your Name]," and "[Date]" with specific details relevant to your organization and the document's revision history. Ensure that the information aligns with your actual data retention practices and legal obligations.
+**Recommendation:**
+Strongly recommend acknowledging and supporting the employee's professional development goals for 2024, as they continue to play a crucial role in the team's success.
