@@ -1,3 +1,11 @@
-1. Initially, accurately estimating the cost for migration from Jira becomes challenging without a clear understanding of the target application. Specifically, in the context of "JIRA projects," the proposed time allocation of 5 hours per project appears as the absolute minimum. Each project encompasses a multitude of configuration settings, spanning field configuration, screen configuration, permission configuration, issue types configuration, security settings, email notification settings, and various meticulous adjustments handled by BBH JIRA Support. It is imperative to recognize that the complexity of data migration varies significantly among projects due to differing sizes. Consequently, I recommend revising the estimate to a minimum of 10 hours per project.
+def userTypeField = getFieldByName("User type")
+def clientNameField = getFieldByName("Client Name")
 
-2. In the realm of the "JIRA Workflows" task, it's noteworthy that only 142 out of 1182 projects utilize the default Jira workflow unaffected by Jira support, while all other workflows are tailored to specific projects. Some of these customized workflows exhibit high complexity levels, necessitating not only the migration of configurations but also the acquisition of proficiency in new tool features. Accordingly, I propose adjusting the estimate from 2.5 hours to 5 hours per project.
+// Check if the User type field is set to "client" during issue creation
+if (userTypeField.getValue() == "client") {
+    // Make the Client Name field mandatory
+    clientNameField.setRequired(true)
+} else {
+    // Make the Client Name field optional
+    clientNameField.setRequired(false)
+}
