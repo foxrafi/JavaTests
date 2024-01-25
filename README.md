@@ -2,26 +2,33 @@ Sure, here are 10 managerial and 10 technical questions you can ask the candidat
 
 **Managerial Questions:**
 
-1. Can you describe a challenging situation you faced in a previous performance testing project and how you handled it?
-2. How do you prioritize tasks and manage your time effectively in a fast-paced AGILE environment?
-3. Have you led or participated in any performance testing training sessions for team members?
-4. How do you ensure effective communication and collaboration within your team and with other project stakeholders?
-5. Can you share an example of a successful performance improvement initiative you spearheaded in a previous role?
-6. How do you handle conflicts or disagreements within your team?
-7. Describe your approach to mentoring and developing junior team members.
-8. Have you implemented performance testing in a cloud environment, and if so, what challenges did you encounter?
-9. How do you stay updated with the latest trends and technologies in performance testing?
-10. Can you share an experience where you had to align performance testing goals with overall project objectives?
+1. Can you describe a challenging situation you faced in a previous performance testing project and how 
 
-**Technical Questions:**
 
-1. Explain the key differences between LoadRunner and JMeter in the context of performance testing.
-2. How do you design and execute a stress test, and what factors do you consider when determining stress levels?
-3. Can you provide an example of a complex performance testing scenario you encountered and how you approached it?
-4. Describe the process of debugging test scripts using C functions and JavaScript.
-5. How do you configure and use monitoring tools like App Dynamics and New Relic in a performance testing environment?
-6. What considerations are important when testing web services using SOAP UI and POSTMAN?
-7. Explain the steps involved in setting up and configuring Jenkins for performance testing automation.
-8. How do you analyze AWR reports from Oracle databases to identify and optimize time-consuming SQL queries?
-9. Can you share your experience with Riverbed and its role in performance testing?
-10. Describe a situation where you had to troubleshoot and resolve performance issues in a production environment.
+Regarding our recent discussion, please find the compiled list of proposed contributions that the SWAT/Central Team could offer to our organization. This aligns closely with what Asia has already suggested:
+
+1. **Test Planning and Strategy:**
+   - Providing guidance to new business and development teams to adhere to testing and SDLC standards, particularly for new projects and BBH software teams (Compliance Testing).
+   - Developing tailored testing plans for each project and designing testing frameworks based on the specific requirements and toolsets implemented in BBH.
+   - Conducting proofs of concept for unavailable tools or solutions (both open-source and commercial), offering valuable feedback to stakeholders for informed decision-making.
+
+2. **Test Automation Implementation:**
+   - Implementing and maintaining automated testing frameworks, especially for projects lacking dedicated testing resources.
+
+3. **Regression Testing Audit Services:**
+   - Reviewing existing test automation regression suites by dedicated senior test software engineers from the SWAT/Central team, ensuring adherence to SDLC requirements and compliance with BBM and industry testing standards.
+
+4. **Specialized Testing Services:**
+   a) Performance testing service (already in STG).
+   b) Security/penetration testing services (to be introduced).
+   c) Mobile application testing services (to be introduced).
+
+5. **Maintenance of Software Regression Test Suites:**
+   - Supporting projects not currently under development and lacking dedicated test automation testers for the maintenance of implemented regression test suites.
+
+6. **Organization of General Trainings and Workshops:**
+
+7. **QM Tools Administration and Management:**
+   - Administering and managing tools such as QTest, TestComplete, TestExecute, Neoload, JMeter, wc3270, Jenkins, Selenium, Playwright, Allure, dbfit, etc., along with jIRA.
+
+Your attention to this matter is appreciated, and we look forward to further discussions on the implementation of these initiatives.
