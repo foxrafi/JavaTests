@@ -1,11 +1,25 @@
-def userTypeField = getFieldByName("User type")
-def clientNameField = getFieldByName("Client Name")
+import com.atlassian.jira.component.ComponentAccessor
 
-// Check if the User type field is set to "client" during issue creation
-if (userTypeField.getValue() == "client") {
-    // Make the Client Name field mandatory
-    clientNameField.setRequired(true)
-} else {
-    // Make the Client Name field optional
-    clientNameField.setRequired(false)
-}
+// Get the issue
+def issue = issue
+
+// Get the current status
+def currentStatus = issue.status
+
+// Get the status ID
+def statusId = currentStatus.id
+
+// Get the custom field manager
+def customFieldManager = ComponentAccessor.getCustomFieldManager()
+
+// Get the custom field by name (replace "Previous Status" with your actual custom field name)
+def previousStatusField = customFieldManager.getCustomFieldObjects(issue).find { it.name == "Previous Status" }
+
+// Set the previous status value in the custom field
+issue.setCustomFieldValue(previousStatusField, statusId)
+
+// Log the information (optional)
+log.info("Previous status set to: $statusId")
+
+// Save the changes to the issue
+issue.store()
