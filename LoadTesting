@@ -1,39 +1,18 @@
-Subject: Jira Customization Inquiry and Workflow Clarification
+1. Tracking all requirements in JIRA.
 
-Dear [Recipient],
+2. Implementing test automation frameworks' templates to minimize the onboarding period for new automation projects. This includes the implementation and maintenance of the traceability matrix tool.
 
-I hope this message finds you well. Regarding the requested Jira customization:
+   - Without support: 2 months for inexperienced testers.
+   - Central SWAT team: 1 week without waiting for infrastructure teams.
 
-1. The "Ready for Development" status has been retained, as per our previous communication. To proceed with any changes, kindly specify the new status for tickets returned by the following filter in the "Ready for Development" status: [Jira Filter URL]. These tickets must be transitioned to an alternative status to facilitate the removal of "Ready for Development" from the workflow.
+3. Providing test automation services for development teams.
 
-2. In the context of displaying all statuses as a drop-down list, considering the current mix of transitions in the workflow (including "All" transitions and dedicated transitions between statuses), clarification is needed regarding your approach to managing the ticket flow within the Jira project.
+   a) Small engagements to expedite testers becoming part of development products.
 
-Your guidance on these matters would be greatly appreciated.
+   b) Central SWAT team: 3-4 weeks project for full implementation of automated regression tests for products. The eventual handover time to the development team is challenging to estimate (from 1 to 6 months).
 
-Best regards,
+4. Monitoring the utilization of test automation infrastructure (via RPI Metsie Tool, developed and maintained by the Central team).
 
-Johnimport com.atlassian.jira.component.ComponentAccessor
+5. Offering training/workshops for testers in BBR and development (GTAF, Feers Learning Series).
 
-// Get the issue
-def issue = issue
-
-// Get the current status
-def currentStatus = issue.status
-
-// Get the status ID
-def statusId = currentStatus.id
-
-// Get the custom field manager
-def customFieldManager = ComponentAccessor.getCustomFieldManager()
-
-// Get the custom field by name (replace "Previous Status" with your actual custom field name)
-def previousStatusField = customFieldManager.getCustomFieldObjects(issue).find { it.name == "Previous Status" }
-
-// Set the previous status value in the custom field
-issue.setCustomFieldValue(previousStatusField, statusId)
-
-// Log the information (optional)
-log.info("Previous status set to: $statusId")
-
-// Save the changes to the issue
-issue.store()
+6. Main KPI for performance testing services is the number of performance test requests.
