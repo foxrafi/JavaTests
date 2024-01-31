@@ -1,4 +1,18 @@
-import com.atlassian.jira.component.ComponentAccessor
+Subject: Jira Customization Inquiry and Workflow Clarification
+
+Dear [Recipient],
+
+I hope this message finds you well. Regarding the requested Jira customization:
+
+1. The "Ready for Development" status has been retained, as per our previous communication. To proceed with any changes, kindly specify the new status for tickets returned by the following filter in the "Ready for Development" status: [Jira Filter URL]. These tickets must be transitioned to an alternative status to facilitate the removal of "Ready for Development" from the workflow.
+
+2. In the context of displaying all statuses as a drop-down list, considering the current mix of transitions in the workflow (including "All" transitions and dedicated transitions between statuses), clarification is needed regarding your approach to managing the ticket flow within the Jira project.
+
+Your guidance on these matters would be greatly appreciated.
+
+Best regards,
+
+Johnimport com.atlassian.jira.component.ComponentAccessor
 
 // Get the issue
 def issue = issue
