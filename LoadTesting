@@ -1,18 +1,1 @@
-1. Tracking all requirements in JIRA.
-
-2. Implementing test automation frameworks' templates to minimize the onboarding period for new automation projects. This includes the implementation and maintenance of the traceability matrix tool.
-
-   - Without support: 2 months for inexperienced testers.
-   - Central SWAT team: 1 week without waiting for infrastructure teams.
-
-3. Providing test automation services for development teams.
-
-   a) Small engagements to expedite testers becoming part of development products.
-
-   b) Central SWAT team: 3-4 weeks project for full implementation of automated regression tests for products. The eventual handover time to the development team is challenging to estimate (from 1 to 6 months).
-
-4. Monitoring the utilization of test automation infrastructure (via RPI Metsie Tool, developed and maintained by the Central team).
-
-5. Offering training/workshops for testers in BBR and development (GTAF, Feers Learning Series).
-
-6. Main KPI for performance testing services is the number of performance test requests.
+We require an additional 200 GB of storage to successfully complete the upgrade and sustain it for the next two to three weeks. Subsequently, we plan to eliminate redundant backups and uninstall all versions of the database, optimizing our storage resources. This will allow us to release the temporarily allocated 200 GB back to your storage pool.
