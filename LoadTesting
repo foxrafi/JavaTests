@@ -1,3 +1,5 @@
+Inapplicable, as our intention is not to alter the current software version but rather to address redundant database versions and obsolete backup files.
+
 Following the installation of version 2023.50P on February 3rd, it is imperative to uninstall the previous PostgreSQL 10 version along with associated backups. This measure is essential to optimize storage utilization, particularly on the D: drive, where there is an accumulation of nearly 2TB of data on the server.
 Dear Patrick,
 
