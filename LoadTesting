@@ -1,4 +1,4 @@
-
+Following the installation of version 2023.50P on February 3rd, it is imperative to uninstall the previous PostgreSQL 10 version along with associated backups. This measure is essential to optimize storage utilization, particularly on the D: drive, where there is an accumulation of nearly 2TB of data on the server.
 Dear Patrick,
 
 As we are currently in the midst of executing the upgrade process, we intend to conduct a more extensive cleanup afterward. At this juncture, we kindly request your support in granting additional storage to facilitate the seamless completion of the upgrade, allowing us to prioritize cleanup efforts in due course.
