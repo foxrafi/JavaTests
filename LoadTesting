@@ -1,1 +1,18 @@
+
+Hello Patryk,
+
+I wanted to update you on the current status of ABC mainframe test automation and the anticipated setup in the next two weeks. Over the past 6-8 months, Magda has diligently worked on the project, rewriting scenarios from the outdated Java-based Jagacy test framework to a new Python-based framework using the wc3270 mainframe library. Nearly all tests, except for four, have been successfully completed and handed over to Bobby, who will assume the role of the long-term developer and maintainer. This strategic plan of transitioning the tests to the new framework aligns with our initial approach.
+
+It's worth noting that Bobby's early involvement in knowledge transfer is essential. Magda, being a consultant, is set to leave the company on Feb 26th. Hence, Bobby needs to be fully self-sufficient in utilizing the new solution post that date.
+
+A significant number of tests implemented by Magda have already undergone Bobby's review, and you can find comprehensive details in this JIRA filter: [JIRA Filter Link](https://abc.abc.com/jira/issues/?filter=1113).
+
+Currently, Magda is working on one test, and three others are assigned to Bobby for review. As of Feb 16th, my team's involvement in development and maintenance for this project will conclude. Henceforth, please involve Bobby in all engagements with development as the test leader.
+
+Tomorrow, and if necessary later, we can schedule a knowledge-sharing session. I plan to record this session to review all tests with Prashant and provide your team with the recording for future reference.
+
+I appreciate your insights on this matter.
+
+Regards,
+
 We kindly request your approval for the proposed change, involving the removal of obsolete QTest database backups and the uninstallation of PostgreSQL database version 10. Our current infrastructure utilizes PostgreSQL version 13, rendering version 10 unnecessary. The scheduled modifications will exclusively apply to the production qTest database server, specifically qddkalkdf.gdf.com. Your thorough review of the change request is appreciated, and should you have any inquiries, kindly inform us. If the proposed changes align with your expectations, we seek your approval to execute this cleanup on February 10th.
