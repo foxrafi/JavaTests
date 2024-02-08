@@ -1,3 +1,7 @@
+
+
+All closed, completed, or resolved issues within the TOD (Time of Delivery) framework, lacking any assigned value in the Resolution field, have been systematically updated to reflect the "Done" resolution status. Additionally, a comprehensive review of project workflows was conducted, resulting in the implementation of a new procedural step mandating the entry of resolution details upon issue closure or resolution. This proactive approach aims to mitigate similar occurrences in the future.
+
 Tricentis qTest is a software testing tool that provides AI-augmented test management, automation, and analytics. Some of the software alternatives to Tricentis qTest are:
 
 - **OpenText ALM Quality Center**: A set of software products designed for accelerating the delivery of secure, reliable modern applications¹.
