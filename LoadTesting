@@ -2,40 +2,53 @@
 
 All closed, completed, or resolved issues within the TOD (Time of Delivery) framework, lacking any assigned value in the Resolution field, have been systematically updated to reflect the "Done" resolution status. Additionally, a comprehensive review of project workflows was conducted, resulting in the implementation of a new procedural step mandating the entry of resolution details upon issue closure or resolution. This proactive approach aims to mitigate similar occurrences in the future.
 
-Tricentis qTest is a software testing tool that provides AI-augmented test management, automation, and analytics. Some of the software alternatives to Tricentis qTest are:
+To split the high-level objective into more granular Key Results (KRs) for quarters, we can focus on specific measurable outcomes aligned with the objective. Here's a breakdown:
 
-- **OpenText ALM Quality Center**: A set of software products designed for accelerating the delivery of secure, reliable modern applications¹.
-- **Zephyr Enterprise**: A cloud-based test management platform with innovative applications and unparalleled, metrics based visibility via real time dashboards².
-- **TestRail**: A web-based user interface that makes it easy to create test cases, manage test runs and coordinate your entire testing process³.
-- **QMetry Test Management**: A comprehensive test management solution that integrates with popular agile tools and provides powerful test planning, execution, and reporting features⁴.
-- **Katalon**: A complete test automation solution that supports web, mobile, and API testing, and offers a built-in test recorder, object spy, and codeless scripting.
+**Quarter 1:**
 
-You can find more information and reviews about these alternatives on the web search results below. I hope this helps you find the best software for your needs. 😊
+KR1. By the end of Q1, have X number of test automation templates created and documented for use by other testers.
+   
+KR2. Quantify the integration progress of the framework into X number of ongoing projects by the end of Q1.
 
-[Web search results]
+KR3. Measure the time saved in onboarding new testers and projects without the Central Team's assistance. Aim for a reduction from 2 months to X weeks, excluding infra wait time.
 
-Source: Conversation with Bing, 07/02/2024
-(1) Top 10 Tricentis qTest Alternatives & Competitors - G2. https://www.g2.com/products/tricentis-qtest/competitors/alternatives.
-(2) Top Tricentis qTest Competitors & Alternatives 2024 - Gartner. https://www.gartner.com/reviews/market/ai-augmented-software-testing-tools/vendor/tricentis/product/tricentis-qtest/alternatives.
-(3) Top 5 Alternatives to Tricentis qTest (December 2023) - SaaSworthy. https://www.saasworthy.com/product-alternative/15093/tricentis-qtest.
-(4) Tricentis qTest Alternatives for Enterprise Businesses in 2024 - G2. https://www.g2.com/products/tricentis-qtest/competitors/alternatives/enterprise.
+Initiatives:
+- IN1. Define and document a set of test automation templates and libraries compliant with the automation strategy.
+- IN2. Research and assess emerging test automation technologies for potential integration into the framework standards.
 
+**Quarter 2:**
 
-Some software alternatives to Tricentis qTest Manager include:
+KR1. Increase the count of test automation templates by an additional Y% compared to Q1.
+   
+KR2. Achieve full integration of the framework into X% more ongoing projects compared to the previous quarter.
 
-1. TestRail
-2. Zephyr
-3. PractiTest
-4. TestLink
-5. Test Collab
-6. Xray (for Jira)
-7. TestMonitor
-8. QAComplete
+KR3. Continue to measure and optimize the time saved in onboarding new testers and projects. Aim for further reduction from Q1's achieved time.
 
-These tools offer similar functionalities for test management, such as test case management, test planning, execution tracking, and reporting. Each has its own set of features and may be better suited for different team sizes, project types, and workflows. It's important to evaluate them based on your specific requirements and preferences.
+Initiatives:
+- IN3. Implement a Traceability matrix tool within the automation framework to enhance project visibility and tracking.
+- IN4. Begin development of the KPI Metric Tool integrated into the automation framework for comprehensive performance measurement.
 
+**Quarter 3:**
 
+KR1. Reach a total count of Z test automation templates available for use by other testers by the end of Q3.
+   
+KR2. Ensure the framework is fully integrated into all ongoing projects by the end of Q3.
 
+KR3. Validate and finalize the time saved in onboarding without the Central Team's involvement, ensuring consistency with the targeted reduction.
 
+Initiatives:
+- IN4. Complete the development and implementation of the KPI Metric Tool, enabling thorough performance measurement within the automation framework.
 
-The Performance Testing Team operates as a service center, engaging in multiple performance projects for various teams. While we acknowledge your tracking of performance testing tasks within your JIRA project, it's imperative to adhere to our established protocol mandated by Systems management. Hence, for any performance test project involving our team, we kindly request you to initiate a request within our designated JIRA project. Should you require additional clarification or wish to discuss this matter further, please don't hesitate to reach out. Your cooperation and understanding are greatly appreciated.
+**Quarter 4:**
+
+KR1. Evaluate and refine existing test automation templates based on feedback and emerging needs.
+   
+KR2. Monitor and sustain the full integration of the framework into ongoing projects, ensuring continued usage and effectiveness.
+
+KR3. Conduct a comprehensive review of the onboarding process, identifying any further opportunities for efficiency improvement.
+
+Initiatives:
+- IN5. Establish a feedback mechanism to gather insights from testers and projects, informing iterative improvements to the automation framework.
+- IN6. Plan for future enhancements and advancements in test automation technology to maintain competitiveness and effectiveness.
+
+These granular KRs and associated initiatives should help in achieving the overarching objective of increasing the effectiveness of Test Automation Frameworks and streamlining the onboarding process for new automation projects.
