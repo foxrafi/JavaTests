@@ -1,3 +1,7 @@
+
+Next week, Robert and his team aim to assume responsibility for certain scripts you developed last year for LNPR-XXX. Kindly support them during my absence. Currently, our focus is on transitioning the existing scripts rather than initiating new development. However, please provide them with an overview of the script contents and organizational structure. Should Robert opt to submit a new request, he will initiate a formal Jira ticket accordingly.
+
+
 Dear TestComplete users,
 
 The QM team has recently introduced SmartBear TestComplete version 15.59 into AAA. As indicated in the attached list, it has come to our attention that some users still have older versions installed on their servers. We kindly request that you take the necessary time to plan the upgrade to the newly onboarded version. To request the upgrade on your laptops or VDIs, please utilize the AAA myTech portal. If you require assistance with deploying it on virtual machines, please do not hesitate to reach out to us to obtain the necessary binaries.
