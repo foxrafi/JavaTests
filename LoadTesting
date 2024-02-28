@@ -1,3 +1,5 @@
+Achieving proficiency in GitHub Copilot entails mastering the art of crafting precise and accurate prompts. Writing prompts correctly ensures that Copilot generates code effectively and accurately. However, attaining mastery in prompt formulation is a skill that requires time and practice to develop
+
 We experimented with several test automation scenarios, utilizing various frameworks and libraries to assess Copilot's support for implementing automated tests.
 Copilot seamlessly integrates with popular test frameworks like JUnit, TestNG, SerenityBDD/Cucumber/JBehave, Selenium, and wc3270 for mainframe systems, used in BBH.
 By providing a well-crafted prompt in a comment, Copilot can generate almost the entire test code for specific methods.
