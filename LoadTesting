@@ -1,4 +1,6 @@
-
+- POC tests: Pending application implementations
+- POC priority: Complex tests (approx. 2 per application)
+- Implementation approach: Each test done both with and without GitHub Copilot
 For this application, we will execute a series of frontend automated scenarios. To develop these scenarios, we will utilize the Selenium test framework, renowned for its capacity to execute automated test cases in web browsers. In conjunction with Selenium, we will employ Java as our programming language and Intellij as our integrated development environment (IDE).
 The extended proof-of-concept will be conducted by the quality management team, specifically involving three testers. Oversight of this initiative within the quality management department will be led by John Green. Additionally, the deployment of GitHub Copilot licenses within our company infrastructure will be overseen by John Scott, as previously arranged. Throughout the proof-of-concept phase, our objectives include implementing a comprehensive suite of tests for two designated applications.
 
