@@ -1,3 +1,5 @@
+The extended proof-of-concept will be conducted by the quality management team, specifically involving three testers. Oversight of this initiative within the quality management department will be led by John Green. Additionally, the deployment of GitHub Copilot licenses within our company infrastructure will be overseen by John Scott, as previously arranged. Throughout the proof-of-concept phase, our objectives include implementing a comprehensive suite of tests for two designated applications.
+
 The process comprises two distinct sub-processes: the development process and the test automation process.
 
 Within the development process, software developers craft code, which is then committed to the production code repository, such as Bitbucket in our case. Subsequently, the code undergoes packaging and deployment into testing environments, allowing testers to verify its functionality. The deployed application provides an interface, such as a web interface or REST API, facilitating testing by the testers. Upon successful completion of testing, the code is deployed to production.
