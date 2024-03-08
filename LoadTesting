@@ -1,3 +1,6 @@
+Our objective is to quantify the time saved by testers in upholding testing code quality through adherence to industry-standard software testing patterns and best practices, facilitated by the utilization of GitHub Copilot for code generation.
+
+
 - POC tests: Pending application implementations
 - POC priority: Complex tests (approx. 2 per application)
 - Implementation approach: Each test done both with and without GitHub Copilot
