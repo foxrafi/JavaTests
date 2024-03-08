@@ -1,4 +1,10 @@
+The process comprises two distinct sub-processes: the development process and the test automation process.
 
+Within the development process, software developers craft code, which is then committed to the production code repository, such as Bitbucket in our case. Subsequently, the code undergoes packaging and deployment into testing environments, allowing testers to verify its functionality. The deployed application provides an interface, such as a web interface or REST API, facilitating testing by the testers. Upon successful completion of testing, the code is deployed to production.
+
+The test automation process involves two phases: the conceptual phase and the implementation phase. During the conceptual phase, testers analyze requirements, design test cases, and define expected outcomes. Once test cases are defined, the implementation phase commences, wherein automation testers select test scenarios and utilize automation frameworks like Selenium or RestAssured to develop automation scripts. These scripts are stored in a dedicated testing code repository within Bitbucket. Testers primarily use Java and IntelliJ IDE. Once automated, the test cases are deployed to Jenkins, our CI/CD solution. Jenkins initiates the automated test cases, executing various actions within the application deployed in a testing environment. Following each execution, Jenkins generates reports detailing the number of test scenarios that passed and failed, which are then presented to stakeholders.
+
+The integration between the code developed by developers and the test automation process occurs solely during the execution of automated test suites by Jenkins. In our extended proof-of-concept, we aim to explore how GitHub Copilot can enhance the efficiency of test automation implementation, along with its broader benefits, across two selected applications.
 The image depicts a comprehensive software development and testing process that integrates GitHub Copilot. Here's a manager-friendly summary:
 
 1. **Code Commitment**: It starts with developers committing code to the production code repository.
