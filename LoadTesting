@@ -1,11 +1,5 @@
-Dear Team,
+Dear test leaders,
 
-I would like to address recent adjustments made to our group policies over the past weekend, which have had an adverse impact on one of our critical applications, QTest Explorer. I am reaching out to inquire about the anticipated timeline for resolving this matter, as the functionality of QTest Explorer has been compromised on laptops and VDIS environments.
-
-This issue significantly affects a considerable portion of our manual testers who rely on QTest Explorer for capturing screenshots during User Acceptance Testing (UAT) and System Integration Testing (SIT) across various projects. The inability to utilize this tool efficiently not only hampers our productivity but also poses a risk of delaying testing activities and potentially impacting project deadlines.
-
-I kindly request guidance on when we can expect a restoration of the previous configuration to address this pressing concern.
+We are reaching out to inquire about the utilization of the LT001 user account from the production environment in your testing procedures, whether manual or automated. Our concern stems from the unique nature of this account, which possesses a fixed password and, to the best of our knowledge, should not be employed by the Quality Management (QM) team for testing purposes. Nonetheless, recognizing the unpredictability of operational scenarios, it is possible that some of you may currently be utilizing this account. Kindly inform us of any such usage, as there are plans underway to transfer ownership of this account to the infrastructure teams.
 
 Thank you for your attention to this matter.
-
-Best regards, [Your Name]
