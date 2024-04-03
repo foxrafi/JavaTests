@@ -1,3 +1,13 @@
+Upon understanding the issue, it appears that the objective is to integrate your application with the JIRA Rest API. However, connectivity to the JIRA server in the production environment is hindered within the RD and QC regions, which is expected as they are segregated from the production network. Two potential solutions are proposed:
+
+1. Facilitate connectivity by opening a port for your server in RD and QC to establish a connection with the production JIRA server. This necessitates coordination with the infrastructure defense team.
+
+2. Utilize a designated test JIRA server for testing purposes in the RD and QC environments. To acquire access to the test JIRA server with equivalent versions of JIRA in the test regions, please liaise with the DevTools support team responsible for administering these servers in the test environment.
+
+Should you require further clarification or have any inquiries, please feel free to reach out.
+
+Warm regards,
+
 From my viewpoint, it seems feasible to remove them. However, could you provide guidance on the average duration required for their reinstatement and provisioning of access to spectrum applications, should the need arise in the future?
 - Team formation: Established a team comprising four testers
 - Test scenarios identification: Identified test scenarios for implementation in two applications, IOBR and TANAC
