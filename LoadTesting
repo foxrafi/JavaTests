@@ -1,3 +1,18 @@
+Certainly! Here are some sources where you can find statistics about the time savings for testers using GitHub Copilot:
+
+1. **The GitHub Blog** has a detailed article discussing the impact of GitHub Copilot on developer productivity and happiness, including specific statistics on time saved¹.
+2. **Plandek**, on Medium, offers insights on how to measure the impact of GitHub Copilot on engineering productivity, which may include relevant metrics².
+3. **Verndale** provides an analysis titled "GitHub Copilot: An AI Time-Saving Superpower," which includes statistics on time savings for developers with different levels of experience³.
+
+These resources should give you a comprehensive view of the productivity gains associated with using GitHub Copilot for automating test scripts.
+
+Source: Conversation with Bing, 04/04/2024
+(1) Research: quantifying GitHub Copilot’s impact on developer productivity .... https://github.blog/2022-09-07-research-quantifying-github-copilots-impact-on-developer-productivity-and-happiness/.
+(2) How to measure Copilot's impact on productivity | Plandek - Medium. https://medium.com/plandek/how-to-measure-the-impact-of-github-copilot-on-engineering-productivity-70698b41e4c.
+(3) Github Copilot: An AI Time-Saving Superpower - Verndale. https://www.verndale.com/insights/emerging-technology/github-copilot-generative-ai.
+(4) Measuring the Runtime Performance of Code Produced with GitHub Copilot. https://arxiv.org/pdf/2305.06439.pdf.
+
+
 Certainly! GitHub Copilot has been reported to significantly improve productivity in software testing and development. Here's a summary of the impact:
 
 **Before GitHub Copilot:**
