@@ -1,4 +1,4 @@
-Thank you, Marcin.
+We regret any inconvenience caused, but IOCRBKP serves as a backup generated prior to today's scheduled data import from Clarity. Kindly disregard any email notifications pertaining to IOCRBKP.Thank you, Marcin.
 
 Regarding other customizations at the project level, we have identified significant differences in the JIRA API between versions 8.x and 9.x. Consequently, several scripts will require updates to ensure compatibility with the new versions. Additionally, we will need to review additional project customizations in light of these changes. Therefore, I kindly request postponing the upgrade by one or two weeks, ideally to April 12th or April 19th.
 
