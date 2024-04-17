@@ -1,3 +1,7 @@
+Certainly:
+
+"We acknowledge the forthcoming performance testing of the modifications. However, we anticipate that as the vendor, you would conduct your own comprehensive performance tests. The performance concern has been raised by our team some time ago, affording ample opportunity for resolution on your part. This situation undermines our confidence in the product."
+
 import com.atlassian.jira.component.ComponentAccessor
 
 def watcherManager = ComponentAccessor.getWatcherManager()
