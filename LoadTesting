@@ -1,3 +1,16 @@
+Certainly, here are some coding tasks commonly executed by test automation specialists:
+
+1. Test Script Development: Writing automation scripts using programming languages such as Python, Java, or JavaScript.
+2. Test Framework Implementation: Implementing and customizing test automation frameworks like Selenium, Appium, or Robot Framework.
+3. Test Script Maintenance: Updating and maintaining existing automation scripts to ensure they remain functional as applications evolve.
+4. Test Script Debugging: Identifying and fixing issues in automation scripts to ensure accurate test execution.
+5. Test Script Optimization: Optimizing automation scripts for improved performance and efficiency.
+6. Integration with CI/CD: Integrating automation scripts into continuous integration/continuous deployment pipelines for automated testing.
+7. API Testing: Writing automated tests for API endpoints using tools like Postman, RestAssured, or Requests library in Python.
+8. Database Testing: Developing automated tests to verify data integrity and consistency in databases.
+9. Performance Testing: Writing automated performance tests to assess system performance under various conditions using tools like JMeter or Gatling.
+10. Test Data Generation: Developing scripts to generate test data for automation testing scenarios.
+
 Got it, you're asking about non-coding tasks performed by automation testing specialists during their work. Some non-coding tasks they might handle include:
 
 1. Test Planning: Creating test plans and strategies for automated testing.
