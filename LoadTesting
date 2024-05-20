@@ -1,3 +1,6 @@
+I understand that Infrastructure Defense has implemented a new solution called Bot Protection in the test regions, which has affected some testers during the recording of various test scenarios, particularly performance tests. Could you please provide more details about this change and outline the process to exclude all servers and machines used by testers for automated regression testing from this solution?
+
+
 Could you please confirm whether the issues reported by Leo have been resolved? The performance testing team has encountered several anomalies while recording test scenarios between the Login Portal and Infuse recently, and we are currently unable to diagnose the cause.
 
 
