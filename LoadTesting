@@ -1,3 +1,10 @@
+Hi,
+
+Do you know if it is possible to access usage information for Maven packages uploaded by QM? We would like to monitor how often these packages are downloaded to eliminate the use of outdated packages across the department. Could you please advise whether Nexus provides this capability?
+
+Thank you.
+
+
 As per your request, I am forwarding the outcome of the software scan conducted by SonarQube, aimed at analyzing the quantity of lines of code within the test automation projects furnished by our test automation leaders. Across 120 projects, we have identified a total of 2,327,951 (or 2.3 million) physical lines of code, with blank characters or comments excluded. For detailed findings, please refer to the dedicated section on our SharePoint site accessible via the provided link.
 This intermittent issue occurs sporadically across various repositories and does not appear to be isolated to a specific one. While downloads may proceed smoothly for certain repositories, the recurring factor appears to be the size of the repository in question. Notably, when attempting to checkout a sizable repository for the first time, there is a likelihood of encountering the aforementioned error interrupting the download process. This observation extends beyond the current repository under consideration to encompass similar experiences across other repositories. It is suggested that a thorough examination of the logs may provide valuable insights into potential underlying causes. Failing such examination, pinpointing the exact root cause of the issue may prove challenging.
 
