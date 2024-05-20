@@ -1,3 +1,32 @@
+
+Certainly! Below is a Groovy script example for ScriptRunner in Jira that you can use to limit the values of a radio button custom field named "Castlefield". This script will be used in a Behaviour that makes the field required and removes the 'None' option:
+
+```groovy
+import com.onresolve.jira.groovy.user.FieldBehaviours
+import com.atlassian.jira.component.ComponentAccessor
+
+def customFieldManager = ComponentAccessor.getCustomFieldManager()
+def optionsManager = ComponentAccessor.getOptionsManager()
+
+def castleField = getFieldByName("Castlefield")
+castleField.setRequired(true) // Make the field required
+
+// Get the custom field object for "Castlefield"
+def customField = customFieldManager.getCustomFieldObjectsByName("Castlefield").find()
+if (customField) {
+    // Get the config for the current context
+    def config = customField.getRelevantConfig(getIssueContext())
+    // Get the current options
+    def options = optionsManager.getOptions(config)
+    // Remove 'None' option if it exists
+    options.findAll { it.value == "None" }.each { options.remove(it) }
+}
+```
+
+Please replace "Castlefield" with the exact name of your radio button custom field. This script assumes that "None" is a value in your options list. If "None" is not a value but rather the absence of a value, you might not need to remove it explicitly; making the field required should suffice.
+
+Remember to test this script in a safe environment before deploying it to your production instance to ensure it behaves as expected. If you encounter any issues or need further customization, feel free to ask!
+
 Hi,
 
 Do you know if it is possible to access usage information for Maven packages uploaded by QM? We would like to monitor how often these packages are downloaded to eliminate the use of outdated packages across the department. Could you please advise whether Nexus provides this capability?
