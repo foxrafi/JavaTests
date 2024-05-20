@@ -1,3 +1,5 @@
+Could you please confirm whether the issues reported by Leo have been resolved? The performance testing team has encountered several anomalies while recording test scenarios between the Login Portal and Infuse recently, and we are currently unable to diagnose the cause.
+
 
 Certainly! Below is a Groovy script example for ScriptRunner in Jira that you can use to limit the values of a radio button custom field named "Castlefield". This script will be used in a Behaviour that makes the field required and removes the 'None' option:
 
